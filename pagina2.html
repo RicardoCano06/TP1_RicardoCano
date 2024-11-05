@@ -36,9 +36,30 @@
         .container {
             padding: 2em;
         }
-        img {
+        .product-grid {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+        .product {
+            border: 1px solid #333;
+            margin: 1em;
+            padding: 1em;
+            width: 18%;
+            background-color: #fff;
+            box-sizing: border-box;
+        }
+        .product img {
             max-width: 100%;
             height: auto;
+        }
+        .product h2 {
+            color: #333;
+            font-size: 1em;
+        }
+        .product p {
+            text-align: left;
+            font-size: 0.9em;
         }
     </style>
 </head>
@@ -48,7 +69,33 @@
     </header>
     <div class="container">
         <p>Esta es la Página 2 de nuestro sitio web.</p>
-        <img src="https://via.placeholder.com/150" alt="Descripción de la imagen">
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://nissei.com/media/catalog/product/cache/b911b00b001dd445be642a5bd71957ac/1/1/110807-1.jpg" alt="Cooler para Notebook Satellite A-CP22">
+                <h2>Cooler para Notebook Satellite A-CP22</h2>
+                <p>Mantén tu notebook fresco y funcionando sin problemas con el Cooler para Notebook Satellite A-CP22. Con dos ventiladores de 6 velocidades regulables y silenciosos, este cooler te ofrece mayor control y concentración mientras trabajas. Además, cuenta con 5 posiciones de altura para que puedas encontrar la postura más cómoda y ergonómica para ti. Los ventiladores grandes giran a 1200 rpm y producen un ruido de solo 15 a 20 dB, lo que garantiza un uso silencioso.</p>
+            </div>
+            <div class="product">
+                <img src="https://nissei.com/media/catalog/product/cache/b911b00b001dd445be642a5bd71957ac/a/s/asus_am4_tuf_gaming_b550-pro_-_1.jpg" alt="Placa Madre Asus TUF Gaming B550-PRO AM4 DDR4">
+                <h2>Placa Madre Asus TUF Gaming B550-PRO AM4 DDR4</h2>
+                <p>La placa madre Asus TUF Gaming B550-PRO destila elementos esenciales de la última plataforma AMD y los combina con funciones listas para jugar y durabilidad comprobada. Diseñada con componentes de grado militar, una solución de alimentación mejorada y un conjunto completo de opciones de refrigeración, esta placa madre ofrece un rendimiento sólido como una roca con una estabilidad de juego inquebrantable.</p>
+            </div>
+            <div class="product">
+                <img src="https://nissei.com/media/catalog/product/cache/b911b00b001dd445be642a5bd71957ac/a/n/anv15-51-75he_5_.jpg" alt="Notebook Acer Nitro V 15 ANV15-51-75HE 15.6' Intel Core i7-13620H RTX 4050 6 GB - Negro">
+                <h2>Notebook Acer Nitro V 15 ANV15-51-75HE 15.6" Intel Core i7-13620H RTX 4050 6 GB - Negro</h2>
+                <p>El Acer Nitro V 15 ANV15-51-75HE es una laptop para juegos de alto rendimiento que ofrece una experiencia de juego fluida y envolvente. Cuenta con una pantalla IPS de 15.6 pulgadas con resolución Full HD (1920 x 1080p) y frecuencia de actualización de 144 Hz, que proporciona imágenes nítidas y fluidas.</p>
+            </div>
+            <div class="product">
+                <img src="https://nissei.com/media/catalog/product/cache/b911b00b001dd445be642a5bd71957ac/d/s/dsccdsdcsdsc.jpg" alt="Apple iPhone 13 A2633">
+                <h2>Apple iPhone 13 A2633</h2>
+                <p>El iPhone 13 tiene una pantalla Super Retina XDR OLED de 6.1 pulgadas con una resolución de 2532 x 1170 píxeles y una tasa de detección táctil de 240Hz.</p>
+            </div>
+            <div class="product">
+                <img src="https://nissei.com/media/catalog/product/cache/b911b00b001dd445be642a5bd71957ac/c/_/c_mara_sony_a9_iii_ilce-9_m3_cuerpo.jpg" alt="Cámara Sony a9 III (ILCE-9M3) Cuerpo">
+                <h2>Cámara Sony a9 III (ILCE-9M3) Cuerpo</h2>
+                <p>La cámara Sony A9 III, está equipada con el primer sensor de imagen de fotograma completo del mundo con un sistema de obturador global, es un producto de otra liga que no distorsiona los objetos que se mueven rápidamente y captura momentos fugaces con un detalle increíble.</p>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Volver a la Página Principal</a></li>
